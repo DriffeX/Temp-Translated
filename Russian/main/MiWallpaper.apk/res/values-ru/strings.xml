@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Builded with CloudBuildr -->
 <resources>
-    <string name="mi_wallpaper_title">Mi Обои</string>
-    <string name="mi_wallpaper_loading">Загрузка Mi Обоев…</string>
+     <string name="mi_wallpaper_loading">Загрузка Mi Обоев…</string>
+     <string name="mi_wallpaper_title">Mi Обои</string>
 </resources>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Builded with CloudBuildr -->
 <resources>
      <string-array name="alarm_in_furture">
         <item>Будильник зазвонит менее чем через минуту</item>
@@ -44,7 +45,7 @@
      </string-array>
      <string-array name="snooze_duration_entries">
         <item>на 1 минуту</item>
-	<item>на 5 минут</item>
+        <item>на 5 минут</item>
         <item>на 10 минут</item>
         <item>на 15 минут</item>
         <item>на 20 минут</item>

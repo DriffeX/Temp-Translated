@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Builded with CloudBuildr -->
 <resources>
      <string-array name="animator_duration_scale_entries">
-        <item>Анимация отключена</item> 
+        <item>Анимация отключена</item>
         <item>Анимация (масштаб: 0,5x)</item>
         <item>Анимация (масштаб: 1x)</item>
         <item>Анимация (масштаб: 1,5x)</item>
@@ -45,19 +46,19 @@
         <item>Всегда</item>
      </string-array>
      <string-array name="button_light_timeout_entries">
-        <item>1 сек.</item>	
-        <item>2 сек.</item>	
-        <item>5 сек.</item>	
-        <item>10 сек.</item>	
-        <item>20 сек.</item>	
-        <item>Всегда</item>	
+        <item>1 сек.</item>
+        <item>2 сек.</item>
+        <item>5 сек.</item>
+        <item>10 сек.</item>
+        <item>20 сек.</item>
+        <item>Всегда</item>
      </string-array>
-	 <string-array name="change_security_lock_picker">
+     <string-array name="change_security_lock_picker">
         <item>Фейс-контроль</item>
         <item>Графический ключ</item>
         <item>Цифровой пароль</item>
         <item>Смешанный пароль</item>
-	 </string-array>
+     </string-array>
      <string-array name="dream_timeout_entries">
         <item>Никогда</item>
         <item>15 сек.</item>
@@ -73,18 +74,18 @@
         <item>Сигнал</item>
         <item>Вибрация</item>
      </string-array>
-     <string-array name="enable_opengl_traces_entries">
-        <item>Нет</item>
-        <item>Logcat</item>
-        <item>Systrace (Graphics)</item>
-        <item>Call stack on glGetError</item>
-     </string-array>
      <string-array name="entries_font_size">
         <item>Мелкий</item>
         <item>Обычный</item>
         <item>Крупный</item>
         <item>Огромный</item>
      </string-array>
+     <integer-array name="font_size_preference_preview_size">
+        <item>14</item>
+        <item>18</item>
+        <item>22</item>
+        <item>27</item>
+     </integer-array>
      <string-array name="haptic_feedback_level_entries">
         <item>Сильный</item>
         <item>Средний</item>
@@ -166,41 +167,42 @@
         <item>OS X</item>
         <item>Linux</item>
      </string-array>
+     <!-- The size of the array does not match! Now: 5 must: 8 -->
      <string-array name="msd_pc_system_install_finish_summary">
         <item>Если вы установили этот драйвер\nМобильное устройство хранения MI-2 должно быть на вашем компьютере</item>
         <item>Для Windows Vista или новее,\nмузыкальный плеер MI-2 должен появится на вашем компьютере</item>
         <item>Если вы установили драйвер\nКомпьютер будет автоматически открывать и читать данные телефона</item>
         <item></item>
      </string-array>
+     <!-- The size of the array does not match! Now: 5 must: 8 -->
      <string-array name="msd_pc_system_install_start_summary">
         <item>Для Windows XP или старее,\nдрайвер должен быть установлен вручную</item>
         <item>Для Windows Vista или новее,\nмузыкальный плеер MI-2 появится на вашем компьютере</item>
         <item>Для операционной системы OS X,\nдрайвер должен быть установлен вручную</item>
         <item></item>
      </string-array>
+     <!-- The size of the array does not match! Now: 5 must: 8 -->
      <string-array name="msd_pc_system_install_step_1_summary">
         <item>(Пожалуйста, игнорируйте всплывающие окна мастера установки)\nзапоминающее устройство XIAOMI появится на вашем компьютере\nОткройте и выберите файл Setup.exe для установки</item>
         <item></item>
         <item>Запоминающее устройство XIAOMI появится на вашем компьютере\nткройте и выберите файл AndroidFileTransfer.dmg для установки</item>
         <item></item>
      </string-array>
+     <!-- The size of the array does not match! Now: 5 must: 7 -->
      <string-array name="msd_pc_system_install_step_2_summary">
         <item>2. Мобильное устройство хранения MI-2 появится на вашем компьютере\nТеперь вы можете передавать файлы</item>
         <item></item>
         <item>Компьютер будет автоматически открывать и читать данные телефона\nТеперь вы можете передавать файлы</item>
         <item></item>
      </string-array>
-     <string-array name="overlay_display_devices_entries">
-        <item>Нет</item>
-        <item>720x480 mdpi</item>
-        <item>1280x720 tvdpi</item>
-        <item>1920x1080 xhdpi</item>
-        <item>1280x720 tvdpi + 1920x1080 xhdpi</item>
-     </string-array>
      <string-array name="perm_hips_action">
         <item>Разрешить</item>
         <item>Запрос</item>
         <item>Запретить</item>
+     </string-array>
+     <string-array name="phone_call_noise_suppression__values">
+        <item>1</item>
+        <item>2</item>
      </string-array>
      <string-array name="phone_call_noise_suppression_title">
         <item>Один микрофон</item>
@@ -241,11 +243,6 @@
         <item>5 мин.</item>
         <item>10 мин.</item>
         <item>Не выключать</item>
-     </string-array>
-     <string-array name="security_settings_premium_sms_values">
-        <item>Спрашивать</item>
-        <item>Запретить</item>
-        <item>Разрешить</item>
      </string-array>
      <string-array name="special_locale_names">
         <item>Китайский (упрощенный)</item>

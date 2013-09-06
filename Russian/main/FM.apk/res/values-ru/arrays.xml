@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Builded with CloudBuildr -->
 <resources>
-    <string-array name="fm_mhz_number_entries">
+     <string-array name="fm_mhz_number_entries">
         <item>" "</item>
         <item>0</item>
         <item>1</item>
@@ -13,9 +14,9 @@
         <item>8</item>
         <item>9</item>
         <item>.</item>
-		<item>,</item>
-    </string-array>
-    <array name="fm_mhz_number_entryValues">
+        <item>,</item>
+     </string-array>
+     <array name="fm_mhz_number_entryValues">
         <item>@drawable/fm_mhz_empty</item>
         <item>@drawable/fm_mhz_0</item>
         <item>@drawable/fm_mhz_1</item>
@@ -28,6 +29,51 @@
         <item>@drawable/fm_mhz_8</item>
         <item>@drawable/fm_mhz_9</item>
         <item>@drawable/fm_mhz_point</item>
-		<item>@drawable/fm_mhz_point</item>
-    </array>
+        <item>@drawable/fm_mhz_point</item>
+     </array>
+     <integer-array name="vibrate_pattern_e1">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>120</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>200</item>
+        <item>60</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+     </integer-array>
+     <integer-array name="vibrate_pattern_e2">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>80</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>200</item>
+        <item>40</item>
+        <item>10</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+     </integer-array>
+     <integer-array name="vibrate_pattern_e3">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>30</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+     </integer-array>
 </resources>
