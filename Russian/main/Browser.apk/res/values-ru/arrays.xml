@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Builded with CloudBuildr -->
 <resources>
      <string-array name="bookmarks">
         <item>Google</item>
@@ -29,6 +30,15 @@
         <item>http://www.weather.com/</item>
         <item>BBC</item>
         <item>http://www.bbc.co.uk/</item>
+     </string-array>
+     <string-array name="menu_theme_setting">
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
      </string-array>
      <string-array name="pref_content_plugins_choices">
         <item>Да</item>
@@ -74,11 +84,6 @@
         <item>Только по Wi-Fi</item>
         <item>Всегда</item>
      </string-array>
-	 <string-array name="pref_video_preload_choices">
-        <item>Никогда</item>
-        <item>Только по Wi-Fi</item>
-        <item>Всегда</item>
-    </string-array>
      <string-array name="pref_text_size_choices">
         <item>Мелкий</item>
         <item>Маленький</item>
@@ -86,9 +91,41 @@
         <item>Большой</item>
         <item>Огромный</item>
      </string-array>
+     <string-array name="pref_video_preload_choices">
+        <item>Никогда</item>
+        <item>Только по Wi-Fi</item>
+        <item>Всегда</item>
+     </string-array>
      <string-array name="pref_volume_key_choices">
         <item>Прокрутка страницы</item>
         <item>Переключение вкладок</item>
+     </string-array>
+     <string-array name="search_bar_search_engines_cmcc">
+        <item>s139</item>
+        <item>baidu</item>
+        <item>sogou</item>
+        <item>taobao</item>
+        <item>yicha</item>
+        <item>easou</item>
+        <item>dianping</item>
+        <item>shipin</item>
+        <item>tupian</item>
+     </string-array>
+     <string-array name="search_bar_search_engines_default">
+        <item>google</item>
+        <item>yahoo</item>
+        <item>bing</item>
+     </string-array>
+     <string-array name="search_bar_search_engines_rCN">
+        <item>baidu</item>
+        <item>sogou</item>
+        <item>taobao</item>
+        <item>yicha</item>
+        <item>easou</item>
+        <item>dianping</item>
+        <item>google</item>
+        <item>shipin</item>
+        <item>tupian</item>
      </string-array>
      <string-array name="search_engines">
         <item>google</item>
@@ -100,21 +137,4 @@
         <item>yandex_ru</item>
         <item>bing</item>
      </string-array>
-	 <string-array name="google">
-        <item>Google</item>
-        <item>google.com</item>
-        <item>http://www.google.com/favicon.ico</item>
-        <item>http://www.google.com/search?hl={language}&amp;ie={inputEncoding}&amp;source=android-browser&amp;q={searchTerms}</item>
-        <item>UTF-8</item>
-        <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
-    </string-array>
-	<string-array name="menu_theme_setting">
-        <item>" "</item>
-        <item>" "</item>
-        <item>" "</item>
-        <item>" "</item>
-        <item>" "</item>
-        <item>" "</item>
-        <item>" "</item>
-    </string-array>
 </resources>
